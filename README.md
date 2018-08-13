@@ -1,8 +1,6 @@
 "# Javascript-Basics"
 --Basic understanding of javascript from Beginner to pro..
 
-
-js bin-account
 onclick=""
 document.getElementByID("").innerHTML="new Update";
 
