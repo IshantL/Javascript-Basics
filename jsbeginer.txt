@@ -1,25 +1,29 @@
-js bin-account
-onclick=""
+JS Basics to pro
+
 document.getElementByID("").innerHTML="new Update";
 
 .innerHtml is property
 .src
 .style.display='' etc.
+
 for performance issue we should write script in body so that the page get load first.
+
 ---
 How to see the output?
 window.alert();
 document.write();--comlete html loaded 
 innerHTML;
-console.log()
+console.log();
+
 ---
 In this session, we are going to go over the syntax of javascript - Get to know the language better
+
 fixed value- literal
-variable valuue
-expersion is a combinationof values,,variables and operatotrs
+variable value
+expresion is a combination of values,variables and operators
 identifiers are names
 JS identifier are case Sensitive
-type operator:type of ,,instanceOf
+type operator:type of ,instanceOf
 
 Datatypes-Number,String,Array,Object,Boolean,Undefined.
 
@@ -46,7 +50,7 @@ same as slice but not accept -ve values
 substr(start,length)
 
 .replace('','');
-.replace('/string/g','');--to replace it at al instance
+.replace('/string/g','');--to replace it at all instance
 as string is imutable so it will not change the string.
 
 .toLowerCase();
@@ -93,7 +97,7 @@ coversion
 
 //Infinity,-Infinity-->(1/0)
 //NaN--100/"hundread"
-to check isNaN();
+to check: isNaN();
 type of NAN is number;
 //Number can also be Objects.
 
@@ -262,7 +266,7 @@ Boolean("");//false
 Boolean(undefined);//false
 Boolean(null);//false
 
-//OBJECTS
+031//OBJECTS
 
 in JS everything is objects
 //Booleans
@@ -326,11 +330,11 @@ value is one of the property attribute
 //objectName.methodName();
 //we cannot add a method on the fly ..we can create it with literals or consuructor
 
-//Object Prototype
+//034Object Prototype
 every object inherit the methods etc from prototype
 godfather
 
-//object creted from literal or consructor will inherit from object.prototype();
+//object creted from literal or constructor will inherit from object.prototype();
 //new Date()- Date.prototype
 
 //we can create our own prototype
@@ -345,16 +349,27 @@ this.eyeColor=eyecolor;
 //person is prototype now
 var myFather= new Person("john","Doe",60,"black");
 
+//TO ADD PROPERTY TO OBJECT
+myfather.nationality="English";
+//to add method to object
+myfather.prototype.mae=function(){
+return this.fn;
+}
+
+
 //to add the property to the prototype
+//either we can add it in prototype defination or another way
 
 person.prototype.nationality="English";
 person.prototype.mae=function(){
 return this.fn;
 }
 
-//pass by value- pass by reference
+//035-pass by value- pass by reference
+
 passby value for premitive
-pass by value applicable to object
+
+pass by reference applicable to object
 
 //comparision operator
 //DOM -Object Methods and Properties
@@ -367,3 +382,63 @@ document.getElementByID();
 
 //HTML object collections
 document.forms["formID"]
+
+
+//046-dom css and animation
+document.getElementById('').style.color="blue";
+var interval=setInterval(frame,5);
+
+//047-DOM EVENTS
+
+insted of writing it in 
+<button id ="123">click </button>
+
+documnet.getElementById('123').onclick=changebuttonText;
+function changebuttonText(){
+document.getElementById('123').innerHTML="I was Clicked";
+}
+//onload and unload
+<body onload="checkCokkies()";
+function checkCookies(){
+var text="";
+if(navigator.cookieEnabled{
+text="cookies enable";
+}
+else{
+text="cookies disable";
+}
+//048--DOM Event Handlers
+
+//addEventListener();
+element.addeventListener(event,function,useCapture)
+//removeEventListener();
+
+
+//example
+
+element.addEventListener('click',callMyFunction);
+function callMyFumction(){
+alert ('Hello World');
+}
+
+
+//049 type conversion
+
+//we can add many event handlers to same element
+/pattern/modifier
+
+//modifiers
+//i-case insensitive
+//g-global match
+//m-multiline match
+
+//patterns
+//[abc]-letter
+//[0-9]-Numbers
+//(x|y)-Either x or y
+//test()-->gives true/false
+//exec()--. gives array
+
+
+//052-error and debugging
+try{}catch(err){}
