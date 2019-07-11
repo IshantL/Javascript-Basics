@@ -371,6 +371,7 @@ return this.fn;
 }
 ```
 - pass by value- pass by reference
+```
 passby value for premitive
 pass by value applicable to object
 
@@ -386,3 +387,4 @@ document.getElementByID();
 //HTML object collections
 document.forms["formID"]
 
+```
