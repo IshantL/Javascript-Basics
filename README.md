@@ -279,7 +279,7 @@ Boolean(null);//false
 
 ```
 - OBJECTS
-
+```
 In JS everything is objects
 //Booleans
 //Numbers
@@ -299,6 +299,8 @@ In JS everything is objects
 //undefined
 ```
 3 ways of creating an object
+
+```
 
 //object literal
 var aaa={fn:"ishant,
