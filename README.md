@@ -368,7 +368,7 @@ person.prototype.mae=function(){
 return this.fn;
 }
 ```
-//pass by value- pass by reference
+- pass by value- pass by reference
 passby value for premitive
 pass by value applicable to object
 
