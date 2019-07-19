@@ -278,9 +278,9 @@ Boolean(undefined);//false
 Boolean(null);//false
 
 ```
-//OBJECTS
+- OBJECTS
 
-in JS everything is objects
+In JS everything is objects
 //Booleans
 //Numbers
 //stringss
@@ -297,7 +297,7 @@ in JS everything is objects
 //number
 //null
 //undefined
-
+```
 3 ways of creating an object
 
 //object literal
@@ -338,8 +338,8 @@ value is one of the property attribute
 
 
 //objects Methods
-//methodName:function(){codelines}
-//objectName.methodName();
+methodName:function(){codelines}
+objectName.methodName();
 //we cannot add a method on the fly ..we can create it with literals or consuructor
 
 //Object Prototype
@@ -367,7 +367,7 @@ person.prototype.nationality="English";
 person.prototype.mae=function(){
 return this.fn;
 }
-
+```
 //pass by value- pass by reference
 passby value for premitive
 pass by value applicable to object
