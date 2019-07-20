@@ -264,7 +264,8 @@ cars.sort(function(a,b){return a.year-b.year});
 console.log(cars);
 ```
 
-//Boollean
+- Boolean
+```
 //All real values will return true
 Boolean(-4);//true
 Boolean(8);//true
@@ -276,6 +277,7 @@ Boolean("");//false
 Boolean(undefined);//false
 Boolean(null);//false
 
+```
 //OBJECTS
 
 in JS everything is objects
