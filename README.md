@@ -239,11 +239,13 @@ array1.concat(array2,array3);
 .slice(1,3)//not included index
 ```
 
-//Sorting-IMP
+- Sorting
+```
 .sort();
 .reverse();
 //sort cannot use on numbers
 for that we use compare
+
 e.g var points=[40,50,100,25,10]
 points.sort(function(a,b){return a-b});
 //40,100 it gives 40-100=-60
@@ -260,6 +262,7 @@ var cars=[
 ]
 cars.sort(function(a,b){return a.year-b.year});
 console.log(cars);
+```
 
 //Boollean
 //All real values will return true
