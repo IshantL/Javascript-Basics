@@ -203,8 +203,8 @@ Date.parse('Dec 31, 2016');
 //Compare Dates
 ```
 
-//Arrays
-
+- Arrays
+```
 .push();
 .sort()
 isArray();
@@ -237,6 +237,7 @@ array1.concat(array2,array3);
 //to slice the array element into different array
 .slice(1//index from new array formed);
 .slice(1,3)//not included index
+```
 
 //Sorting-IMP
 .sort();
