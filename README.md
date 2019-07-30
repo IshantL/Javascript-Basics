@@ -169,7 +169,8 @@ Math.LOG10E//Log E to base 10
 Math.random()
 ```
 
-//Date Object
+- Date Object
+```
 create a new date
 new Date();
 new Date(148145454545);//from 11 jan 1970 miillisecond
@@ -200,6 +201,7 @@ new Date("Mar 25 2016);
 Date.parse('Dec 31, 2016');
 
 //Compare Dates
+```
 
 //Arrays
 
