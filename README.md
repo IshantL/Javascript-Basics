@@ -106,31 +106,30 @@ to check isNaN();
 type of NAN is number;
 //Number can also be Objects.
 ```
-
+```
 //Number Methods
 .toString()//to convert no in string
 (123).toString();
 
 //toExponential()
-
 .toExponential(parameter for round of);
 
 //to Fixed(parameter for round of)
-to rounding of the nos.
+//to rounding of the nos.
 
-//toPrecision(length<21)
+toPrecision(length<21)
 
-//valueOf()
-to convert a number object to premitive value.
+valueOf()
+//to convert a number object to premitive value.
 
 //converting variables to nos
-//Number()
-global js methods 
+Number()
+//global js methods 
 Number(true)//1
 Number("10")//10
 Number("djhd")//NaN
 
-//parseInt()
+parseInt()
 parseInt("10 20")//10
 //"10 years"-->10
 //true-->NaN
@@ -167,8 +166,8 @@ Math.LN2-log2
 Math.LN10//log 10
 Math.LOG2E//Log E to base 2
 Math.LOG10E//Log E to base 10
-
 Math.random()
+```
 
 //Date Object
 create a new date
