@@ -94,6 +94,7 @@ upto 17 digit floting
 //octal-8
 //Decimal -10
 
+```
 coversion 
 .toString(2)//binary
 .toString(8)//octal
@@ -104,7 +105,7 @@ coversion
 to check isNaN();
 type of NAN is number;
 //Number can also be Objects.
-
+```
 
 //Number Methods
 .toString()//to convert no in string
