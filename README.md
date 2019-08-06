@@ -71,7 +71,8 @@ split- gives output in array of string
 .split('');//for empty gives complete string in array.
 
 ```
-Numbers
+- Numbers
+```
 var x=34;
 x=34.0;
 x=123e5;//12300000
@@ -85,7 +86,7 @@ IEEE 754 -64 bit format -double presision,
 
 upto 15 digit decimal it is appropriate aftre then abrupt behavior
 upto 17 digit floting
-
+```
 
 //how to aviod such abstrupt behavior--- maths logic- we can do
 //Bianary -2
