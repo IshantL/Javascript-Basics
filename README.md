@@ -40,21 +40,21 @@ String methods
 .lastIndexOf('');
 .search('');
 ```
-
+```
 //extractions
 slice(start,end);
+
 //apple, Banana
+
 //slice(7,13);//banana
 //slice(-13,-8);//apple
 
 substring(start,end);
 same as slice but not accept -ve values
-
 substr(start,length)
 
 .replace('','');
-.replace('/string/g','');--to replace it at al instance
-as string is imutable so it will not change the string.
+.replace('/string/g',''); //to replace it at all instance, as string is imutable so it will not change the string.
 
 .toLowerCase();
 .toUpperCase();
@@ -70,7 +70,7 @@ split- gives output in array of string
 .split(' ')// based on space // we can split based on alphabet
 .split('');//for empty gives complete string in array.
 
-
+```
 Numbers
 var x=34;
 x=34.0;
