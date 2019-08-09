@@ -21,25 +21,25 @@ console.log();
 ```
 
 - In this session, we are going to go over the syntax of javascript - Get to know the language better
+
 fixed value- literal
 variable valuue
-expersion is a combinationof values,,variables and operatotrs
+expresion is a combination of values,,variables and operatotrs
 identifiers are names
 JS identifier are case Sensitive
-type operator:type of ,,instanceOf
-
+type operator:type of, instanceOf
 Datatypes-Number,String,Array,Object,Boolean,Undefined.
 
-scope is block scope in function.
-this means in context of same.
+- scope is block scope in function.this means in context of same.
 events-onclick, onchange,onmouseover,onmouseout,onkeydown,onload
 
 String methods
+```
 .length
 .indexOf(''); position
 .lastIndexOf('');
 .search('');
-
+```
 
 //extractions
 slice(start,end);
