@@ -20,7 +20,7 @@ innerHTML;
 console.log();
 ```
 
-In this session, we are going to go over the syntax of javascript - Get to know the language better
+- In this session, we are going to go over the syntax of javascript - Get to know the language better
 fixed value- literal
 variable valuue
 expersion is a combinationof values,,variables and operatotrs
