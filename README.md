@@ -1,6 +1,6 @@
 # Javascript-Basics
 
-Basic understanding of javascript from Beginner to pro..
+## Basic understanding of javascript from Beginner to pro..
 
 ```
 onclick=""
@@ -10,14 +10,16 @@ document.getElementByID("").innerHTML="new Update";
 .style.display=''
 
 ```
-for performance issue we should write script in body so that the page get load first.
----
-How to see the output?
+- for performance issue we should write script in body so that the page get load first.
+
+- How to see the output?
+```
 window.alert();
 document.write();--comlete html loaded 
 innerHTML;
-console.log()
----
+console.log();
+```
+
 In this session, we are going to go over the syntax of javascript - Get to know the language better
 fixed value- literal
 variable valuue
