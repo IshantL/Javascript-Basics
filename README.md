@@ -1,5 +1,6 @@
 # Javascript-Basics
---Basic understanding of javascript from Beginner to pro..
+
+Basic understanding of javascript from Beginner to pro..
 
 onclick=""
 document.getElementByID("").innerHTML="new Update";
