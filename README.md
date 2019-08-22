@@ -1,4 +1,4 @@
-"# Javascript-Basics"
+# Javascript-Basics
 --Basic understanding of javascript from Beginner to pro..
 
 onclick=""
@@ -7,6 +7,7 @@ document.getElementByID("").innerHTML="new Update";
 .innerHtml is property
 .src
 .style.display='' etc.
+
 for performance issue we should write script in body so that the page get load first.
 ---
 How to see the output?
